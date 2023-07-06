@@ -1,0 +1,58 @@
+.gitignore dosyası: Gite gönderilmesini istenmeyen dosyalar
+
+Git sadece yazılım projelerinin versiyonlarını tutmaz , her hangi bir rapor tez ödev yaparken kitap yazarken de kullanabilirsin.
+
+git config --global user.name "Hakan Dereli" kullanıcı adı belirler.
+git config user.name : gösterir.
+
+git config --global user.email
+example@gmail.com : genelde şirket maili olur burada
+git config user.email : gösterir
+
+git status : git in güncel durumunu gösterir.
+örneğin on branch master gibi hangi branch de olduğunu gösterir.
+no commits yet diyebilir mesela değişiklilkleri henüz commitlemediysen
+eklediğin çıkardığın değişiklik yaptığın dosyaları gösterebilir.
+
+
+
+git init: versiyonlanmak istenen dosya yada projenin git e eklenmesini initialize edilmesini sağlar.
+
+
+git ayarlarını ve versiyonlarını bilgilerini .git adlı dosya da tutar.
+cd .git ile bunun içerisine girebilirsin detaylarını görebilirsin.
+ancak bu dosya gizlidi ls -a veya dir /a komutları ile sorgulama yapman gerekir.
+
+
+rm -rf .git ile yanlışlıkla git eklediysen bir çalışmaya bunu kaldırabilirsin o projeden.
+
+git commit -m deki message zorunlıu parametredir.
+
+git log diyerek git geçmişini görebilirsin. atılan tüm log ları gösterir.
+her commitin kendine ait bir hashcode u vardır git log dediğinde bu hashcode ları verir.
+
+master veya main ana branch dir.
+yapılan iş te 300 kişi çalışsın hepsi farklı branchlerde çalışsın herkesin işi bitince ana branche yani maine dahil olur
+birleştirilir bunlar. ana branch canlıya cıkacak olan nihai üründür.
+
+git log dediğinde  gelen
+HEAD -> master
+ifadesi son commiti gösterir ve hangi branch te olduğumuzu gösterir.
+güncel konumu verir yani branch ve commit olarak
+
+Açılan her branch birleştirilmek zorunda değildir. yada çok uzun sürebilir belki
+branch i değiştirdiğinde HEAD orayı gösterir.
+
+git branch feat :yeni branch açma komutu
+branch ı açman dallandığı anlamına gelmez commit atarsan dallanır ve HEAD feature yani yeni branchini gösterir.
+
+yeni açtığın branch te işin daha bitmedi ama main branchte başka işler yapman lazım geçiş yapmak için
+git switch master yaparsan ana branche dönersin ve HEAD master i gösterir feati henüz birleştirmedin
+
+master branch te iken git merge feat dediğin de ana branch le feat branchini birleştirmiş olursun
+
+git branch : güncel branch leri listeler.
+git branch yeni_branch
+git switch master
+git merge yeni_branch
+
