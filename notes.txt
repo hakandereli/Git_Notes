@@ -56,3 +56,21 @@ git branch yeni_branch
 git switch master
 git merge yeni_branch
 
+Branch mantığı ne için kullanılır:
+Örneğin uygulamanın veritabanını değiştireceksin, bir dependencies in sürümünü yükselticeksin,
+bu uygulamanın main ana branchi patlatırsa ürün patlar, müşteri patlar, sürüm patlar,
+şirket patron dolayısıyla sen de patlarsın bu sebeple branchler kullanılarak yeni özellikler, tehlikeli durumlar veya
+daha küçük projeler bu şekilde denenir.
+
+Branchi oluşturduğun yerden kopyayı alır geri kalan senin o branchte yaptığın değişikliklerdir.
+sen bunu kendi branchinde denersin baktın çalışıyor problem yok merge edersin ve geliştirme tamamlanmış olur.
+Büyük firmalar da her istek her iş için yeni branch açılır gitlab üzerinde merge request gönderilir ve bunları yöneticiler
+onaylar.
+
+Herkesin yetki seviyesi vardır herkes her branch e kod atamaz kurumsal yapılarda bu işler çok katıdır hatta commitlere
+yazdığın mesajlar bile kısıtlanmıştır belli kalıplara uydurulmuştur.
+
+ne kadar çok branch ve commit in varsa o kadar yedeğin var demektir her commitin kendi hashi üzerinden bunlara dönebilir.
+Bu bir kod da olabilir dosya da kitapta.
+
+
