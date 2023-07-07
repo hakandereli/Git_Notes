@@ -81,4 +81,7 @@ Yaptığın commit 2 veya daha fazla branchte aynı ise
 HEAD  -> feature , master şeklinde gösterir.
 sadece yeni branch te ise HEAD > yeni_branch şeklinde gösterir.
 
+Git varsayılan olarak vim bash kullanır bunu yüklerken veya daha sonra dan seçebilirsin.
+vim e giridiğinde çıkmak için :q yapmak gerekir. Bu yeni branchin ikinci commiti olsun.
+
 
