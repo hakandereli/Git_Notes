@@ -51,7 +51,7 @@ git switch master yaparsan ana branche dönersin ve HEAD master i gösterir feat
 
 master branch te iken git merge feat dediğin de ana branch le feat branchini birleştirmiş olursun
 
-git branch : güncel branch leri listeler.
+git branch : güncel branch leri listeler ve hangi branch de olduğunu yeşil ile gösterir. git status de gene hangi branch te olduğunu gösterir.
 git branch yeni_branch
 git switch master
 git merge yeni_branch
@@ -72,5 +72,7 @@ yazdığın mesajlar bile kısıtlanmıştır belli kalıplara uydurulmuştur.
 
 ne kadar çok branch ve commit in varsa o kadar yedeğin var demektir her commitin kendi hashi üzerinden bunlara dönebilir.
 Bu bir kod da olabilir dosya da kitapta.
+
+
 
 
