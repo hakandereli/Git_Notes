@@ -84,4 +84,7 @@ sadece yeni branch te ise HEAD > yeni_branch şeklinde gösterir.
 Git varsayılan olarak vim bash kullanır bunu yüklerken veya daha sonra dan seçebilirsin.
 vim e giridiğinde çıkmak için :q yapmak gerekir. Bu yeni branchin ikinci commiti olsun.
 
+açtığın branchi hangisi ile birleştiriceksen switch ile ona geçmen gerekir.
+master a geçip merge ikinci branch dersen birleştirmiş olursun.
+
 
