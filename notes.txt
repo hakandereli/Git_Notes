@@ -73,6 +73,8 @@ yazdığın mesajlar bile kısıtlanmıştır belli kalıplara uydurulmuştur.
 ne kadar çok branch ve commit in varsa o kadar yedeğin var demektir her commitin kendi hashi üzerinden bunlara dönebilir.
 Bu bir kod da olabilir dosya da kitapta.
 
+Branch oluşturmak yeterli değildir commit yapmadan uzak sunucunda gözükmez bu yeni branchin
 
+switch yapmadan önce branch te değişikliğin varsa bunları commitle diye uyarı verir.
 
 
