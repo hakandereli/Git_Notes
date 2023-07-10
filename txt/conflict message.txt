@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+user:dddd
+passwords:xxx
+bu 3 satır master branch te düzeltildi.
+=======
+user:hakandereli
+passwords:12345
+bu 3 satır çakışma yaratmak için master branch te eklendi.
+>>>>>>> feature
+
+
+
+<<<< head ile belirtilen ve === e kadar olan kısım son güncel halde gösterilen kısım
+==== başalıp >>> feature a kadar olan kısım feature da çakışan kısım hangisini alim diyor
+sen burada head <<< >> == bunları silip burada ne yazmak istiyorsan onları yazıp tekrar commitlemen gerekir.
+intellij bunu çok daha hızlı göstererek çözer senin yapmana gerek kalmaz.
