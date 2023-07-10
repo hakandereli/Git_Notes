@@ -1,0 +1,39 @@
+merge işlemi yaptığında ortaya hatalar çıkabilir.
+
+Merge işlemi de aslında yeni bir committir ve otomatik bir mesaj yazar
+örneğin master dasın ve deneysel bir branch in var.
+Merge branch deneysel diye yeni bir commit atar.
+bu sebeple merge işleminden sonra uzak repoya tekrar pushlaman gerekir.
+
+Bu hataların sebepleri şunlardır:
+
+master branch de olan bir dosyayı başka bir branchte silsen
+veya aynı dosyanın aynı yerlerini değiştirsen.
+birinde sildiğin bir dosyayı diğerinde değişiklik yapsan vs.
+ortalığı çorba yapsan yani
+
+CONFLICT yersin bu çakışma demektir.
+
+conflict yediğinde console da gösterir sana şu dosyanın şurasında çakışma var gibi.
+bunları çözebilirsin ideler de bunlar için çok daha gelişmiş araçlar var.
+intellij de örneğin ortada toplayarak çözüyorsun.
+yada böyle bir iden yoksa her iki değişikliği de gösterir kendin el ile çözüp bu çakışmayı
+commitlemeni ister merge yapabilmen için.
+
+aslında Fast Forward (ileri Sarma)  denen bir teknikte vardır:
+bu şu demek master branchteki son committen yeni bir branch açınca
+master da commitlemessin daha switch master ,merge second_branch dediğinde direk eşleşir.
+fast forward işlemin de yeni bir commit atmaz aslında sadece birleştirir.
+
+git de bu işlemi yaptığında log da Fast-forward şeklinde yazar bunu
+
+ancak bu birden fazla kişinin çalıştığı bir proje de pek mümkün değildir.
+çünkü sen farklı bir branch te çalışırken başkaları da master branch te commitler atabilir.
+
+merge işleminden sonra
+
+git log dediğinde
+HEAD -> hem master, hem diğer branchi gösterir.
+
+branchleri değiştirmeden önce yaptığın değişiklikleri commitlemeni ister yoksa yaptığın değişikleleri kaybedebilirsin.
+

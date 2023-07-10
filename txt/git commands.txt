@@ -1,0 +1,32 @@
+Temel Komutlar:
+git init: Yeni bir Git deposu oluşturur.
+git clone <repo URL>: Uzak bir Git deposunu yerel makinenize kopyalar.
+git add <dosya>: Değişiklikleri takip etmek ve gelecek bir işlem için hazırlamak için dosyayı veya değişiklikleri Git'e ekler.
+git commit -m "Açıklama": Değişiklikleri bir araya getirip bir "commit" oluşturur ve açıklama ekler.
+git status: Yapılan değişikliklerin durumunu kontrol eder.
+
+Uzak Depo İşlemleri:
+git remote add <uzak adı> <repo URL>: Uzak bir depoyu yerel depoya ekler.
+git remote -v: Yerel depodaki tüm uzak depoları listeler.
+git pull <uzak> <dal>: Uzak depodaki değişiklikleri yerel depoya çeker.
+git push <uzak> <yerel dal>:<uzak dal>: Yerel depodaki değişiklikleri uzak depoya gönderir.
+
+Dal ve Birleştirme İşlemleri:
+git branch: Mevcut tüm dalları listeler.
+git branch <dal adı>: Yeni bir dal oluşturur.
+git checkout <dal adı>: Belirli bir dala geçer.
+git merge <dal adı>: Belirli bir dalı mevcut dala birleştirir.
+git rebase <dal adı>: Belirli bir dalı mevcut dal üzerine yeniden uygular.
+
+Geçmiş ve Günlük İşlemleri:
+git log: Depodaki commit geçmişini gösterir.
+git diff: Değişiklikleri gösterir.
+git blame <dosya>: Dosyanın her satırını kimin değiştirdiğini gösterir.
+
+Diğer Komutlar:
+git stash: Geçici olarak yapılan değişiklikleri saklar.
+git tag: Belirli bir commit'e etiket ekler veya listeler.
+git reset: Commit geçmişini geri alır veya değişiklikleri iptal eder.
+git revert: Belirli bir commit'i geri alır.
+
+git --help

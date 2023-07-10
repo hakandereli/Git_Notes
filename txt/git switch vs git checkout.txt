@@ -1,0 +1,14 @@
+git switch ve git checkout, 
+Git'in farklı komutlarıdır ve dal değiştirme işlemlerini gerçekleştirmek için kullanılırlar.
+Ancak, Git 2.23 sürümünden itibaren git switch komutu, dallar arasında geçiş yapmak için 
+kullanılan bir komut haline gelmiştir. Bu nedenle, önerilen ve daha yeni bir komut olarak kabul edilmektedir. 
+git checkout komutu ise halen kullanılmaya devam edilmektedir.
+
+git switch <dal adı> veya git checkout <dal adı>: 
+Belirli bir dala geçiş yapar ve o dalda çalışmaya başlamanızı sağlar.
+
+git switch -: 
+En son kullanılan dal ile mevcut dala geçiş yapar.
+
+git switch -c <yeni dal adı> veya git checkout -b <yeni dal adı>: 
+Yeni bir dal oluşturur ve o dalda çalışmaya başlamanızı sağlar.
