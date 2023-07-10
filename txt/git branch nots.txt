@@ -37,3 +37,5 @@ HEAD -> hem master, hem diğer branchi gösterir.
 
 branchleri değiştirmeden önce yaptığın değişiklikleri commitlemeni ister yoksa yaptığın değişikleleri kaybedebilirsin.
 
+merge işlemi sırasında her hangi bir çakışma olmuyorsa tekrar commitlemene gerek yok.
+
