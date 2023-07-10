@@ -1,0 +1,37 @@
+Farklı bir branch açtın ve bir şeyler yazıyorsun ama müdürün aradı ve acil olarak
+master branch te bir değişiklik yapmanı istedi ne yapıcaksın?
+
+Yeni branch teki kodunu da yarım bırakmak istemiyorsun yarım commit atmak istemiyorsun müdürler izliyor diyelim.
+
+add . demeden git izin vermez checkout veya switch yapamazsın
+
+add . diyip commit etmessen switch master yapınca master branchine gelir değişikliklelerin.
+
+tabi çakışma olmadığı durumda çakışma varsa conflicti de çözmeni isteyecek
+
+Bu değişikliklerinin master da olmasını istemiyorsan master dayken
+git restore ilkbolum.txt dersen master daki haline çevirir o dosyası ama branchteki kodu da geri alır bu.
+
+1- ya commitliycen yeni branchtekini(yarım da kalsa)
+2- ya bu değişiklikten vazgeçicen restore veya mainde geri alırsın değişikliği
+3- yada stash yapıcan
+
+stash nedir depo demek aslında
+calışma alanı > index-stagin > local repo > remote repo
+gibi değil bu ağacın dışında ap ayrı bir yerde saklar bu değişikliklerini daha sonra sen istersen:
+
+git add . git commit bile yapmadan bu değişikliklerini
+git stash yapıcan bu bu değişikliği alır çıkarır buradan.
+bu değişikliği farklı branchte yaptın diye orada uygulamak zorunda da değilsin istediğin branchte uygulayabilirsin.
+git stash pop dediğinde sakladığı özel yerden geri alır bunu.
+
+git stash list deyince özel depondaki değişikleri görürsün.
+pop yaptığın da bu listeden siler bunu
+
+git stash dediğinde hepsini ekler stashe istediğini uygulamak için
+git stash apply stash@{0} gibi özel olarak pop edebilirsin.
+
+git stash clear stash leri siler.
+
+apply pop gibi değildir liste den silmez bunu.
+
