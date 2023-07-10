@@ -73,8 +73,24 @@ yazdığın mesajlar bile kısıtlanmıştır belli kalıplara uydurulmuştur.
 ne kadar çok branch ve commit in varsa o kadar yedeğin var demektir her commitin kendi hashi üzerinden bunlara dönebilir.
 Bu bir kod da olabilir dosya da kitapta.
 
+<<<<<<< HEAD:notes.txt
 Branch oluşturmak yeterli değildir commit yapmadan uzak sunucunda gözükmez bu yeni branchin
 
 switch yapmadan önce branch te değişikliğin varsa bunları commitle diye uyarı verir.
+=======
+Yeni branch deyim şuan switch den önce pushlamana gerek yok commit yapman yeterli.
+şimdi bir klasör yapısı ekleyip yeni branch te commitleyeceğim.
+
+Git log komutu
+Yaptığın commit 2 veya daha fazla branchte aynı ise
+HEAD  -> feature , master şeklinde gösterir.
+sadece yeni branch te ise HEAD > yeni_branch şeklinde gösterir.
+
+Git varsayılan olarak vim bash kullanır bunu yüklerken veya daha sonra dan seçebilirsin.
+vim e giridiğinde çıkmak için :q yapmak gerekir. Bu yeni branchin ikinci commiti olsun.
+
+açtığın branchi hangisi ile birleştiriceksen switch ile ona geçmen gerekir.
+master a geçip merge ikinci branch dersen birleştirmiş olursun.
+>>>>>>> klasor_yapisi_ekleme_branchi:txt/notes.txt
 
 
