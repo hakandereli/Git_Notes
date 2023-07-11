@@ -1,3 +1,6 @@
+açtığın branchleri githuba pushlaman için ayrıca yazman gerekir push ladığında bu branchi github da oluşturmaz
+git push origin branch-adı
+
 merge işlemi yaptığında ortaya hatalar çıkabilir.
 
 Merge işlemi de aslında yeni bir committir ve otomatik bir mesaj yazar
