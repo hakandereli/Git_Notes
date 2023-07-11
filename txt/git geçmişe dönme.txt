@@ -29,6 +29,24 @@ git add .
 git commit -m
 
 
+----------------------------
+git reset commit_hash_value: dönmek istediğin commite gider öncekileri siler ama bu silenen commitlerin değişikliği kalır.
+git reset --hard commit_hash_value: hard dediğinde hem siler commitleri hemde değişikliklerini de siler.
+
+git revert commit_hash:
+çok kullanıcılı sistemlerde sen commiti sildin ama başkasında var conflict çıkar
+bu sebeple de revert kodunu çıkarmışlar.
+revert kodu silmek istediğin commitlerin silindiği yeni bir commit atar.
+Revert kodu çalıştırıldığında bir mesaj ister ve bu attığı committe ben şu commitleri sildim mesajı da bu bunların
+şeklinde gösterir.
+revert i tarihe göre en güncel olandan geriye doğru yapmak gerekir.
+
+reset de dönmek istediğin commitin hashini alırsın.
+revert de ise silmek istediğin commitin hashini alırsın.
+revert bir tarihçe tuttuğu için reset den çok daha mantıklıdır birden fazla kullanıcılı sistemlerde ise
+reset kullanılmamalı.
+
+
 
 
 
