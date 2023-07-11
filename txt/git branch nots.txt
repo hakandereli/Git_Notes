@@ -1,5 +1,7 @@
 açtığın branchleri githuba pushlaman için ayrıca yazman gerekir push ladığında bu branchi github da oluşturmaz
 git push origin branch-adı
+intellij in git log penceresi bu konuda çok gelişmiştir yerel de repo da neler hangi branch hangi commitler olduğunu
+çizerek vs hepsini gösterir.
 
 merge işlemi yaptığında ortaya hatalar çıkabilir.
 
