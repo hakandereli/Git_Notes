@@ -32,6 +32,9 @@ git commit -m
 ----------------------------
 git reset commit_hash_value: dönmek istediğin commite gider öncekileri siler ama bu silenen commitlerin değişikliği kalır.
 git reset --hard commit_hash_value: hard dediğinde hem siler commitleri hemde değişikliklerini de siler.
+reset den sonra Unstaged changes after reset:
+                M       txt/deneysel.txt
+gibi uyarı verir commitleri sildim ama bunlarda değişiklikleri kaldı.
 
 git revert commit_hash:
 çok kullanıcılı sistemlerde sen commiti sildin ama başkasında var conflict çıkar
