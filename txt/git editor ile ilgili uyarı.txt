@@ -1,0 +1,11 @@
+Git i kurarken hangi editörde açayım diye sorar eğer sen bunu seçmessen gitin kendi vim editörünü kullanır.
+Bundan q diyerek çıkabiliyorsun ama bunu genel olarak kullanmak sıkıntı.
+mesela conflict falan olduğunda yada revert işlemlerinde falan message ister bu message için konsolda açar oradaki
+kısayollarını bilmek zorunda kalırsın.
+
+Yada bir editörü seçersin notepad++ gibi
+
+git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+bu şekilde kodu çalıştırırsın eğer başlangıçta seçmediysen
+
+notepadd de açınca bunu ctrl s yapıp kapatırsan otomatik alır o mesajı
