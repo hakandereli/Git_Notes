@@ -1,0 +1,34 @@
+git restore giris.txt
+git restore .
+:
+
+bir commit attın ve daha sonra bir şeyler yazdın ama add. veya commit yapmadın diyelim
+geri dönmek istiyorsun bu yaptıkların hatalı olsun.
+
+Git status dediğinde add. veya commit yapmadıysan zaten iki seçenek gösterecek ya bu yaptığın değişikleri add le
+yada git restore yap şeklinde.
+
+git checkout commit_id_si:
+Branch değiştirirken git checkout yerine switch kullan çünkü checkout commitler arasındaki geçişi sağlar.
+Yanlış bir şeyler yaptın ve bunu commitledin. Eski haline geri dönmek istiyorsun ne yapıcaksın.
+git log diyip commitin id değerini görebilirsin
+bu id yi kopyalayıp checkout dan sonra yazarak dönebilirsin.
+Ancak bu işlem HEAD i senin id sini yazdığın commite çeker sen geri aldın ama son attığıon commiti silmedin.
+head farklı yeri gösteriyor master dasın örneğin master farklı yeri gösteriyor.
+git uyarı verir DETACHED HEAD kopuk head der.
+kodun güncel olduğunu HEAD MASTER yazar log yazınca oradan anlarsın head farklı yere geçti.
+git branch yazdığında da master yazmas head detached yazar.
+
+geri aldığında commitlediğin duruma geri dönmek istersen git switch master dersin.
+reattached head denir buna da.
+
+veya bir önceki commitine dönüp farklı bir branch açıp oradan devam etmek istiyor olabilirsin.
+git branch feat
+git switch feat
+git add .
+git commit -m
+
+
+
+
+
