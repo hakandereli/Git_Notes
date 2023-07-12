@@ -45,3 +45,7 @@ diyebiliriz karşılaştırmak için
 
 *****************************git diff commit_hash_id
 bu iki commmit arasındaki farkları gösterir.
+
+
+*****************************git diff master second_branch
+bu iki branch arasındaki farkı gösterir.
