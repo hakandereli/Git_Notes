@@ -1,0 +1,47 @@
+Birisin projesine destek vermek için onun kodunu
+
+**git clone https://github.com/hakandereli/deneme.git
+
+şeklinde kodu çekersin. .git uzantılı olduğuna dikkat et.
+
+yada şöyle yapabilirsin.
+
+**FORK
+
+Fork şu demek bu projeyi al kendi githubıma şuan ki halini kopyala
+bu saatden sonra yollarımız çatallanıyor ben kendi yoluma sen kendi yoluna
+bundan sonra ben pushladığım sadece kendi repomda gözükecek benim.
+
+clone ve fork için projelerin gösterildiği adresler de butonlar mevcut.
+
+Fork ladığın yer kendi repondan gözükür.
+
+kodu kopyalayabilirsin commit yapabilirsin ancak pushlayamassın
+
+push yetkiye bağlıdır bu proje senin değil.
+
+İşlem şu şekilde olmalı pull request için
+1-Projeyi fork la kendi repona al
+
+2-Geliştirmeni düzeltmeni yap kendi uzak repona pushla
+
+2 inci adımı yapıp kendi reponda bunu gördüğünde sen bunun orjinalinin önüne geçtin
+istersen bunu contribute edebilirsin yani pull request açabilirsin diyor.
+
+yada
+
+fetch upstream e yaparak adamın yaptığı geliştirmeleri kendine çekebilirsin.
+
+3-pull request yolla repo sahibine
+bir mesaj yazarak pull request yollarsın adama
+adam alır inceler ister mergeler ister merge lemez.
+yada code review changes diyerek bir yorum yazar mesela
+"tamam güzel olmuş ama şunu da ekle tekrar yolla falan" diyerek"
+**Comments : yorum
+**Approve: Tebrik
+**Request Changes : değişiklik talebi oluşturabilir.
+submit review butonu ile yollar.
+
+
+Mergelemek için **Merge Pull request butonuna basar.
+merge i kapatmak için iptal eder yani Close Pull request yapar ama buna bir mesaj yazması gerekir.
