@@ -1,0 +1,35 @@
+Rebasing: bazı değiştirme demek
+
+Rebasing şu demek:
+Örnek görseli img ye ekledim oradan incele.
+Yeni bir branch açtın ve süreklü commitler atıyorsun ama
+master da da başkaları commit atıyor sen bu yeni commitleri de kullanmak istiyorsun.
+Feat branchine geçip masteri yeni branchine merge ediyorsun sürekli.
+yani diğer geliştiriciler her commit attığında aslında sen kendi branchinde bir merge commit atmış oluyorsun.
+
+******git switch feat
+
+******git merge master : belki 100 kere çalıştırıcan
+****git rebase master : bu bir kere yeter AMA
+
+aması şu rebase tarih akışını bozar.
+main branch te atılan commitleri başa alır.
+seninkileri sonuna ekler ve merge commitleri atmamış olursun.
+yani şöyle olur mesela
+commitler var ama tarih sıraları oradaki sıralama değil.
+
+rebase tehlikeli bir komuttur.
+
+Hele ki sen rebase yapmadan önce insanlarla public olarak yeni dalını paylaştıysan.
+ve bu insanlar senin paylaştıklarını kullanarak başka değişiklikler yapıyorsa
+insanlarda bir zaman akışı olacak çünkü
+sen bunu rebase yaptığında adamların komple git geçmişi ana gövde değişmiş olacak
+belki de problemler conflictler çıkacak.
+
+Daha önce paylaşmadığın bir proje ise rebase yapabilirsin öteki türlü risklidir.
+çünkü eğer insanlar paylaştıklarında değişiklik yaptıysa çorba olucak ortalık.
+
+rebase komutunu açtığın 2 inci brancte git rebase master diyerek çalıştırırsın.
+
+rebase dediğinde merge commitleri siler.
+aslında log silmek için de kullanılıyor sanırım.
