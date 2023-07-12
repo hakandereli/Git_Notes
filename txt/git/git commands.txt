@@ -7,6 +7,12 @@ git status: Yapılan değişikliklerin durumunu kontrol eder.
 
 Uzak Depo İşlemleri:
 git remote add <uzak adı> <repo URL>: Uzak bir depoyu yerel depoya ekler.
+git remote add origin https://github.com/hakandereli/repo.git
+burada ki origin sağ taraftaki reponun adresini temsil eder bu komutu verdikten sonra.
+artık her seferinde url vermezssin de origin yazarsın.
+master branch yerine main kullanalım isimi kötü bir anlama geliyor gibi tartışmalar var
+istediğini kullan
+
 git remote -v: Yerel depodaki tüm uzak depoları listeler.
 git pull <uzak> <dal>: Uzak depodaki değişiklikleri yerel depoya çeker.
 git push <uzak> <yerel dal>:<uzak dal>: Yerel depodaki değişiklikleri uzak depoya gönderir.

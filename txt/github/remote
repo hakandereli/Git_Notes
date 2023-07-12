@@ -1,0 +1,47 @@
+**Yeni açtığında şu kodlar olur.
+
+
+…or create a new repository on the command line
+echo "# deneme" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/hakandereli/deneme.git
+git push -u origin master
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/hakandereli/deneme.git
+git branch -M master
+git push -u origin master
+
+
+açtığın branchleri githuba pushlaman için ayrıca yazman gerekir push ladığında bu branchi github da oluşturmaz
+****git push origin branch-adı
+intellij in git log penceresi bu konuda çok gelişmiştir yerel de repo da neler hangi branch hangi commitler olduğunu
+çizerek vs hepsini gösterir.
+ilk başta:
+**git push -u origin master:
+-u upstream demek yani bundan sonra yaptığım commitleri master olarak algıla diyorsun bu sebeple farklı branch eklemek istersen
+yukarıdaki gibi yeni branchin adını vermek zorundasın.
+
+
+Uzak Depo İşlemleri:
+git remote add <uzak adı> <repo URL>: Uzak bir depoyu yerel depoya ekler.
+git remote add origin https://github.com/hakandereli/repo.git
+burada ki origin sağ taraftaki reponun adresini temsil eder bu komutu verdikten sonra.
+artık her seferinde url vermezssin de origin yazarsın.
+master branch yerine main kullanalım isimi kötü bir anlama geliyor gibi tartışmalar var
+istediğini kullan.
+
+git branch: local deki branchleri görüntülersin.
+
+github ikinci branchi yolladığın da sana compare and pull request diye bir buton gösterir.
+bu şu demek sen 2 branch açtın ama bunları istersen merge edip devam edebilirsin gel bunları mergeleyelim diyor.
+bir yorum yazıp pull request atarsan sahibi yani kendine pull request talebi gelir bunu adam proje üzerinde görüp
+kabul veya red edebilir. Görüntüleyebilir yaptığın değişiklikleri.
+merge eder veya etmez yani.
+merge i kabul ederse pull request onaylandı kapatıldı yazar istersen bu ikinci branchi de silebilirsin der.
+
+

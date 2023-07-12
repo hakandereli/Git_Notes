@@ -2,6 +2,10 @@ açtığın branchleri githuba pushlaman için ayrıca yazman gerekir push ladı
 git push origin branch-adı
 intellij in git log penceresi bu konuda çok gelişmiştir yerel de repo da neler hangi branch hangi commitler olduğunu
 çizerek vs hepsini gösterir.
+ilk başta:
+git push -u origin master:
+-u upstream demek yani bundan sonra yaptığım commitleri master olarak algıla diyorsun bu sebeple farklı branch eklemek istersen
+yukarıdaki gibi yeni branchin adını vermek zorundasın.
 
 merge işlemi yaptığında ortaya hatalar çıkabilir.
 
