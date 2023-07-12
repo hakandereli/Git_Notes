@@ -1,0 +1,19 @@
+github da proje açarken private seçmen yeterli
+yada sonradan da private a çekebilirsin geri kalan her şey aynı.
+
+private repon var yada public kullanıcı eklemek istiyorsan setting kısmına geçersin repo da ve contrubutors dan
+kişiyi arar eklersin.
+
+kişinin mailine bir istek gönderilir seni eklediler kabul ediyor musun diye kabul ederse o da seninle aynı push yetkisini alır
+private repoları görebilir.
+
+ancak bu pek doğru bir yol değil ya bu kişilerle anlaşıp master branchi koruma için her isteği birer branchte yapmalısınız.
+
+yada master branche commit yetkisini kapayıp pr(pull request) veya master haricindekilere yetki verip merge requestlerle ilerlemek gereklidir.
+
+aksi takdirde bir kişinin yapacağı yanlış bir işlem projeyi bozabilir.
+
+** farklı branchlerde çalışıyorsunuz şef bunu github da incelemek istemiyor ne yapıcak:
+***git pull origin feat/ucuncubolum :yeni commiti çekicek
+***git branch -r :ile uzak repolara bakıcak
+***git checkout origin/feat/ucuncubolum: bu şekilde kendi ide sinde inceleyebilir.

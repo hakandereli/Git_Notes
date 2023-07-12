@@ -45,3 +45,5 @@ submit review butonu ile yollar.
 
 Mergelemek için **Merge Pull request butonuna basar.
 merge i kapatmak için iptal eder yani Close Pull request yapar ama buna bir mesaj yazması gerekir.
+
+pull request i github üzerinden ve intellij vscode visual studio gibi ekranlardan da yapabilirsin.

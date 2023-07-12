@@ -1,0 +1,34 @@
+GITHUB ACTIONS:
+ CI / CD süreçlerine dair kubernate docker vs.
+
+ayrıca testler, otomasyonlar , schedule lar vs ekleyebilirsin.
+
+güvenlik denemeleri ,amazon , dağıtımlar
+
+iş akışları , containerler
+
+mesela kendi NPM yada MAVEN kütüphani oluşturup bunları internetten çekmiyorsun falan bu tarz mevzuları yapabilirsin.
+
+
+PROJECTS:
+proje yönetim aracı gibi
+iş yönetim aracı gibi
+
+WIKI:
+readme den daha detaylı dokumanlar yazmak için
+
+SECUTRITY:
+otomatik güvenli kod taramaları vs, sertifikalar,
+güncel lisanslar, hak ihlalleri vs,
+güvenlik tavsiyeleri
+
+INSIGHTS:
+reponun özeti grafiklerle,
+bağımlılıklarını izleme
+forks ları izleme
+lisans oluşturma, pull request, issue i vs için template ler hazırrlama
+belli standartlar getirme projeye
+
+SETTINGS:
+projeyi silme, görünürlüğünü değiştirmeden branchlere hepsini yöbetebildiğin,
+insanlara yetkiler tanımlayabildiğin yer.
