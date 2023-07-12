@@ -1,0 +1,47 @@
+*************git diff:
+
+bu komut add . , commit , branchlar, mergeler vs hepsinden öncesi ve sonrası arasındaki farkları gösteriri.
+
+tek başına çalıştırdığında add . yapmadıklarını gösterir sadece.
+eğer add . ile staginge eklersen değişikliği oda gözükmez.
+
+*************git diff HEAD:
+son commit e göre neleri değiştirdirdin onları gösterir.
+
+yeşil ve artı ile gösterilen eklenendir.
+kırmızı ve eksi ile gösterilen silinenlerdir.
+
+hangi dosyalarda değişiklik yapıldığını da gösterir.
+
+ÖRN START:
+PS C:\hd\gitnotes> git diff HEAD
+diff --git a/txt/deneysel.txt b/txt/deneysel.txt
+index aade882..1ec33df 100644
+--- a/txt/deneysel.txt
++++ b/txt/deneysel.txt
+@@ -1,4 +1,5 @@
+ deneme
+ 1.commit
+ 2.commit
+-asd
+\ No newline at end of file
++asd
++123
+\ No newline at end of file
+ÖRN FINISH:
+
+
+a/giris.txt
+b/giris.txt
+burada a ve b yi kendi atar.
+a giris.txt nin ilk hali b son hali bu ikisini karşılaştırıyorum burada değişiklik var diyor.
+index diye yazan metadata dır veri hakkında veri aslında bir id.
+
+
+@@ -1,4 +1,5 @@
+1. inci satırdan 4 satır okudu
+1. inci satırdan 5 satır okudu
+diyebiliriz karşılaştırmak için
+
+*****************************git diff commit_hash_id
+bu iki commmit arasındaki farkları gösterir.
