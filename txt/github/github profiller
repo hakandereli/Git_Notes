@@ -1,0 +1,10 @@
+Overview de gözüken *Contributions ne anlama gelir.
+Bu katkılar demektir ve senelere bölünmüş olarak gösterilir.
+
+Katkılar neler olabilir.
+**Pull Request (Çekme İsteği) Katkıları: Kullanıcının bir projeye yeni bir özellik veya hata düzeltmesi eklemek için yaptığı çekme isteklerinin sayısı.
+**Commit (Taahhüt) Katkıları: Kullanıcının projelerdeki değişiklikleri kaydetmek için yaptığı taahhütlerin (commit) sayısı.
+**Issue (Sorun) Katkıları: Kullanıcının GitHub projelerinde açtığı veya katkıda bulunduğu sorunların (issue) sayısı.
+**Code Review (Kod İnceleme) Katkıları: Kullanıcının başkalarının çekme isteklerini inceleyerek geri bildirim sağlaması veya hata düzeltmeleri yapması gibi kod inceleme faaliyetlerinin sayısı.
+**Wiki Katkıları: Kullanıcının projenin wiki sayfalarında içerik düzenlemeleri veya belgeleme katkıları yapması.
+**İşbirliği Katkıları: Kullanıcının proje sahipleri veya diğer katılımcılarla işbirliği yaparak projenin gelişimine katkıda bulunması, tartışmalara katılması veya yorumlarda bulunması.

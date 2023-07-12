@@ -1,0 +1,26 @@
+git versiyon kontrol sistemleri için tek değildir.
+
+**Git:
+Git, en yaygın kullanılan ve en popüler versiyon kontrol sistemlerinden biridir. Açık kaynaklı bir sistemdir ve hızlı, verimli ve dağıtık bir şekilde çalışır. Birçok büyük projenin ve yazılım geliştirme topluluğunun tercih ettiği bir sistemdir.
+
+**Subversion (SVN):
+Subversion, merkezi bir versiyon kontrol sistemidir. Dosyaların ve projelerin merkezi bir sunucuda depolandığı bir yapıya sahiptir. Dağıtık olmayan yapıları tercih eden bazı projeler tarafından hala kullanılmaktadır.
+
+**Mercurial:
+Mercurial, dağıtık bir versiyon kontrol sistemidir. Git'e benzer birçok özelliği paylaşır ve kullanımı kolay bir arabirime sahiptir. Büyük projeler ve yazılım geliştiriciler tarafından tercih edilen bir sistemdir.
+
+**Perforce:
+Perforce, özellikle büyük ve karmaşık projeler için optimize edilmiş merkezi bir versiyon kontrol sistemidir. Büyük miktarda veri yönetimi ve çoklu platform desteği sunar.
+
+**Microsoft Team Foundation Version Control (TFVC): TFS diye de geçer
+TFVC, Microsoft Visual Studio ve Azure DevOps tarafından desteklenen bir merkezi versiyon kontrol sistemidir. Genellikle Microsoft tabanlı projelerde tercih edilir.
+
+**Bazaar
+Bu sadece popüler versiyon kontrol sistemlerinden birkaçıdır ve başka birçok seçenek bulunmaktadır. Ayrıca, zamanla yeni versiyon kontrol sistemlerinin ortaya çıkabileceğini unutmamak önemlidir.
+
+
+Github da git için kullanılan tek alternatif değildir.
+Github,
+Gitlap,
+Gitbucket
+gibi örnekleri vardır.
