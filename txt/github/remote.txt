@@ -44,4 +44,5 @@ kabul veya red edebilir. Görüntüleyebilir yaptığın değişiklikleri.
 merge eder veya etmez yani.
 merge i kabul ederse pull request onaylandı kapatıldı yazar istersen bu ikinci branchi de silebilirsin der.
 
-
+daha sonra uzak repon ve localin farklı oldu çünkü sildin aslında bir branchi ve bu da farklı bir commit oldu.
+bunları nasıl eşleyeceğin sysnchroized.txt de

@@ -1,0 +1,35 @@
+****git branch:
+local branchleri gösterir
+****git branch -r:
+uzak branchleri gösterir
+
+**git fetch origin master:
+bu kod local repona çeker uzaktaki kodu.
+
+git status
+dediğinde your branch is behing 'origin/master' by 2 commits ,
+and can be fast-forwarded der
+yani 2 commit geride senin branchin bunu eşlemek için fast forward yapabilirsin.
+yada git pull kullan der.
+
+**git checkout origin/master:
+uzak repo daki branch de geçebilirsin ama bu detached head e sebep olur hemde
+git switch kullanamassın git checkout yapman gerekir.
+yani bunu uzak repoya hızlıca bakmak için kullanabilirsin.
+localine çekmeden önce hızlıca bir bakmak için kullanabilirsin.
+geri locala dönmek için
+**git checkout master
+kullanabilirsin.
+
+
+**git pull: git fetch + git merge demektir.
+fetch neden ayrıca yapmışlar localine çekmeden merge etmeden bakabilmek için yapmışlar çakışmalar vs için.
+eğer git fetch yaptıktan sonra başka bir commit atarsan bu sefer repo dan 2 adım geri desin bir de farklı commitin var der.
+örnek olarak tabi yukarıda yazılanlar.
+
+git pull remote origin: direk git pull da diyebilirdin localine çeker. git fetch gibi inceleme şansın olmaz.
+
+merge işlemi varsa merge için message istemeye geçer.
+
+Eğer pull yağtığında başka değişiklerin varsa onları da remote dan geri de kalmamak için
+pushlayacaksın.
